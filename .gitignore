@@ -1,0 +1,41 @@
+# Mundos (muito grandes e mudam constantemente)
+world/
+world_nether/
+world_the_end/
+
+# Logs e relatórios de crash
+logs/
+crash-reports/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Arquivos que mudam constantemente
+eula.txt
+usercache.json
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+
+# Cache e dados temporários de plugins
+cache/
+plugins/*/data/
+plugins/*/logs/
+plugins/dynmap/web/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Java compilado e JARs
+*.class
+*.jar
+
+# Arquivos de IDE (opcional, se usar alguma IDE)
+.vscode/
+.idea/
+*.iml
+
