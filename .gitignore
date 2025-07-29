@@ -32,7 +32,6 @@ Thumbs.db
 
 # Java compilado e JARs
 *.class
-*.jar
 
 # Arquivos de IDE (opcional, se usar alguma IDE)
 .vscode/
