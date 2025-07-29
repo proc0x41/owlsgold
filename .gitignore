@@ -25,6 +25,7 @@ cache/
 plugins/*/data/
 plugins/*/logs/
 plugins/dynmap/web/
+libraries/*/*.jar
 
 # Sistema
 .DS_Store

@@ -6,10 +6,10 @@ JAVA_ARGS="-Xmx4096M -Xms4096M"
 MINECRAFT_LOG="minecraft.log"
 SCREEN_NAME="minecraft"
 
-if [ ! -d "$MINECRAFT_DIR" ]; then
-    echo "Erro: Diretório $MINECRAFT_JAR não existe."
-    exit 1
-fi
+#if [ ! -d "$MINECRAFT_DIR" ]; then
+#    echo "Erro: Diretório $MINECRAFT_JAR não existe."
+#    exit 1
+#fi
 
 echo "Encerrando servidor Minecraft..."
 screen -X -S "$SCREEN_NAME" quit
